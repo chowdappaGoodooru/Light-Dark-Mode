@@ -1,0 +1,54 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Roboto;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dark-container {
+  background-color: #000000;
+  width: 400px;
+  border-style: none;
+  border-radius: 10px;
+  height: 30vh;
+  text-align: center;
+}
+
+.light-container {
+  background-color: #ffffff;
+  width: 400px;
+  border: solid 2px #000000;
+  border-radius: 10px;
+  height: 30vh;
+  text-align: center;
+}
+
+.dark-heading {
+  color: #ffffff;
+}
+
+.light-heading {
+  color: #000000;
+}
+
+.btn-style {
+  border: solid 1px #000000;
+  border-radius: 5px;
+  width: 100px;
+  padding: 10px;
+}
